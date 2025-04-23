@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Exo;
+    src: url('fontes/Exo-ExtraBold.ttf') format('truetype');
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: black;
+}
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+header > h1 {
+    display: inline-flex;
+    font-family: Exo;
+    font-size: 100%;
+    color: white;
+    max-width: 300px;
+    padding: 0px 20px 0px 20px;
+    margin: auto;
+}
+header > img {
+    display: inline;
+    max-width: 30%;
+
+}
+footer {
+    background-color: blue;
+}
+footer P {
+    color: white;
+}
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    
+}
