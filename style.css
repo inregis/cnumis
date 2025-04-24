@@ -15,22 +15,21 @@ body {
 }
 header {
     background: linear-gradient(to bottom, #53c7f5, transparent);
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 10px;
     margin-bottom: 20px;
 }
-header > h1 {
-    display: inline-flex;
-    font-family: Exo;
-    font-size: 100%;
-    color: white;
-    max-width: 300px;
-    padding: 0px 20px 0px 20px;
-    margin: auto;
+header > a > img { 
+    position: relative;
+    max-width: 8%;
+    transform: translate(500%, 0%);
 }
+
 header > img {
     display: inline;
-    max-width: 30%;
+    max-width: 32%;
+}
+main {
+    
 }
 main > h2 {
     font-family: 'Exo';
@@ -44,6 +43,7 @@ main > p {
 }
 footer {
     background-color: blue;
+    padding: 15px;
 }
 footer P {
     color: white;
