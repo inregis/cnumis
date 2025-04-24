@@ -1,16 +1,20 @@
 @charset "UTF-8";
 @font-face {
     font-family: Exo;
-    src: url('fontes/Exo-ExtraBold.ttf') format('truetype');
+    src: url('fontes/Exo-ExtraBold.ttf') format('truetype')
+    url('fontes/Exo-light') format('truetype');
+
 }
 * {
     margin: 0px;
     padding: 0px;
 }
 body {
-    background-color: black;
+    background: black url('imagens/fundo1.png') center center no-repeat fixed;
+    background-size: cover;
 }
 header {
+    background: linear-gradient(to bottom, #53c7f5, transparent);
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 20px;
@@ -27,7 +31,16 @@ header > h1 {
 header > img {
     display: inline;
     max-width: 30%;
+}
+main > h2 {
+    font-family: 'Exo';
+    color: white;
 
+}
+main > p {
+    font-family: 'Exo';
+    font-weight: normal;
+    color: white;
 }
 footer {
     background-color: blue;
