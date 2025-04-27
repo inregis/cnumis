@@ -41,9 +41,34 @@ main > p {
     font-weight: normal;
     color: white;
 }
+a > aside {
+    display: inline-block;
+    font-family: 'Exo';
+    background-color: #f7fcfc81;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 2px black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 100%;
+    padding: 15px;
+    margin: 10px;
+    width: 30%;
+    border-radius: 25px;
+    box-shadow: 1px 1px 8px #00000073;
+    transition: 0.6s;
+}
+a > aside > img {
+    width: 100%;
+}
+aside:hover {
+    background-color: rgb(39, 8, 218);
+    width: 35%;
+}
+
 footer {
     background-color: blue;
     padding: 15px;
+    margin-top: 60px;
 }
 footer P {
     color: white;
