@@ -10,6 +10,7 @@
     padding: 0px;
 }
 body {
+    font-family: 'Exo';
     background: black url('imagens/fundo1.png') center center no-repeat fixed;
     background-size: cover;
 }
@@ -29,6 +30,7 @@ header > img {
     max-width: 32%;
 }
 main {
+    margin: auto;
     
 }
 main > h2 {
@@ -52,7 +54,7 @@ a > aside {
     font-size: 100%;
     padding: 15px;
     margin: 10px;
-    width: 30%;
+    width: 28%;
     border-radius: 25px;
     box-shadow: 1px 1px 8px #00000073;
     transition: 0.6s;
@@ -62,12 +64,13 @@ a > aside > img {
 }
 aside:hover {
     background-color: rgb(39, 8, 218);
-    width: 32%;
+    width: 30%;
 }
 
 footer {
+    display: flexbox;
     background-color: blue;
-    padding: 15px;
+    padding: 10px;
     margin-top: 60px;
 }
 footer P {
@@ -78,4 +81,9 @@ footer a {
     font-weight: bold;
     color: white;
     
+}
+footer > img {
+    width: 5%;
+    position: relative;
+    left: 50%;
 }
