@@ -19,12 +19,13 @@ header {
     padding: 10px;
     margin-bottom: 20px;
 }
-header > a > img { 
+header > a { 
     position: relative;
-    max-width: 8%;
-    transform: translate(500%, 0%);
+    left: 40%;  
 }
-
+a > img {
+    width: 8%;
+}
 header > img {
     display: inline;
     max-width: 32%;
