@@ -15,13 +15,10 @@ body {
     background-size: cover;
 }
 header {
+    position: relative;
     background: linear-gradient(to bottom, #53c7f5, transparent);
     padding: 10px;
     margin-bottom: 20px;
-}
-header > a { 
-    position: relative;
-    left: 40%;  
 }
 a > img {
     width: 8%;
@@ -43,6 +40,24 @@ main > p {
     font-family: 'Exo';
     font-weight: normal;
     color: white;
+}
+section#redes-sociais {
+    position: relative;
+    left: 19%;
+    display: inline;
+}
+section#redes-sociais img {
+    width: 7%;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.473);
+    box-sizing: border-box;
+}
+section#redes-sociais img:hover {
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.712);
+    transition: transform 0.5s;
 }
 a > aside {
     display: inline-block;
