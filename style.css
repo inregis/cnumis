@@ -7,7 +7,6 @@
     font-family: "Inter", sans-serif;
 }
 body {
-    font-family: 'Exo';
     background: black url('imagens/fundo1.png') center center no-repeat fixed;
     background-size: cover;
 }
@@ -29,12 +28,10 @@ main {
     
 }
 main > h2 {
-    font-family: 'Exo';
     color: white;
 
 }
 main > p {
-    font-family: 'Exo';
     font-weight: normal;
     color: white;
 }
