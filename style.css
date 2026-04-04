@@ -1,13 +1,10 @@
 @charset "UTF-8";
-@font-face {
-    font-family: Exo;
-    src: url('fontes/Exo-ExtraBold.ttf') format('truetype')
-    url('fontes/Exo-light') format('truetype');
 
-}
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 body {
     font-family: 'Exo';
