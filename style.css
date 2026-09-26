@@ -54,15 +54,16 @@ header img {
 nav#menu ul {
   list-style: none;
   display: flex;
-  gap: 9px;
+  gap: 6px;
   order: 2;
 }
 
 nav#menu a {
   text-decoration: none;
+  font-size: 80%;
   color:var(--texto-inverso);
-  font-weight: 400;
-  padding: 12px 15px;
+  font-weight: 600;
+  padding: 8px 10px;
   border-radius: 5px;
   transition: background-color 0.4s, color 0.4s;
 }
@@ -173,7 +174,7 @@ section#artigos2 figcaption {
 
 section#videos-youtubes {
   background-color: var(--fundo-card);
-  padding: 40px;
+  padding: 20px;
   border-radius: 10px; 
   grid-column: 2;
 }
