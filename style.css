@@ -98,8 +98,9 @@ main h1 {
 
 main p {
   color: var(--texto);
-  font-size: 1.2em;
+  font-size: 1em;
   padding: 15px;
+  text-align: justify;
   text-indent: 30px;
   letter-spacing: 2px;
   line-height: 28px;
@@ -274,6 +275,11 @@ footer a {
 @media screen and (min-width: 768px) {
   main {
     grid-template-columns: auto 200px 200px 300px auto;
+  }
+
+  main p {
+    font-size: 1.3em;
+    text-align: justify;
   }
 
   section#artigos {
