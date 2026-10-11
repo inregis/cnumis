@@ -22,6 +22,15 @@
   --fundo-card: #ffffffea;
 }
 
+body.escuro {
+  --fundo-principal: #222222;
+  --texto: #f7f1f1;
+  --texto-inverso: #333333;
+  --destaque: #faa763;
+  --destaque-inverso: #a73917;
+  --fundo-card: #444444de;
+}
+
 body {
   font-family: "Inter", sans-serif;
   background: var(--fundo-principal) url(./assets/cnumis.jpg) center no-repeat fixed;
@@ -109,6 +118,7 @@ main p {
 
 section#artigos {
   display: grid;
+  color: var(--texto);
   justify-items: center;
   background-color: var(--fundo-card);
   padding: 10px;
@@ -145,15 +155,23 @@ section#pg-artigos {
   cursor: pointer;
 }
 
+
 section#artigos .notas { 
   display: grid;
   justify-items: center;
   gap: 20px;
 }
 
-#artigos .artigo h1 {
-  padding: 15px;
-  line-height: 33px;
+#artigos .nota h2 {
+  color: var(--destaque);
+  padding: 3px;
+  line-height: 25px;
+}
+
+#artigos .artigo h2 {
+  color: var(--destaque);
+  padding: 3px;
+  line-height: 25px;
 }
 
 section#artigos2 {
