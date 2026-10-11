@@ -58,7 +58,7 @@ nav#menu {
 }
 
 header img {
-  width: 15%;
+  width: 20%;
   margin-right: auto;
   order: 1;
 }
@@ -72,14 +72,18 @@ nav#menu ul {
 
 nav#menu a {
   text-decoration: none;
-  font-size: 80%;
+  font-size: 0.7em;
   color:var(--texto-inverso);
   font-weight: 600;
   padding: 8px 10px;
   border-radius: 5px;
-  text-shadow: 0.3px 0.3px 2px black;
-  transition: background-color 0.4s, color 0.4s;
-  
+  text-shadow: 0.3px 0.3px 1px black;
+  transition: background-color 0.4s, color 0.4s, font-size 0.4s;  
+}
+
+nav#menu a:hover {
+  font-size: 0.8em;
+  color: var(--texto-link);
 }
 
 main {
@@ -295,16 +299,28 @@ footer {
 
 footer a {
   color: var(--texto-inverso);
-  text-shadow: 0.3px 0.3px 2px black;
+  text-shadow: 0.3px 0.3px 1px black;
   text-decoration: none;
   font-weight: bold;
   padding: 0 3px;
+  transition: color 0.4s;
+}
 
+footer a:hover {
+  color: var(--texto-link);
 }
 
 @media screen and (min-width: 768px) {
   main {
     grid-template-columns: auto 200px 200px 300px auto;
+  }
+
+  nav#menu a {
+    font-size: 1.2em;
+  }
+
+  nav#menu a:hover {
+    font-size: 1.3em;
   }
 
   main p {
@@ -434,6 +450,7 @@ footer a {
   main {
     grid-template-columns: auto 400px 400px 500px auto;
   }
+
 
   section#artigos {
     grid-column: 2 / 4;
