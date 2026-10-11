@@ -17,16 +17,18 @@
   --fundo-principal: #f5f5f5;
   --texto: #222222;
   --texto-inverso: #ffffff;
-  --destaque: #002fff;
-  --destaque-inverso: #66bbff;
+  --texto-link: #080cf7;
+  --destaque: #3dbbf5;
+  --destaque-inverso: #3a9ef0;
   --fundo-card: #ffffffea;
 }
 
 body.escuro {
   --fundo-principal: #222222;
   --texto: #f7f1f1;
-  --texto-inverso: #333333;
-  --destaque: #faa763;
+  --texto-inverso: #fa9006;
+  --texto-link: #f7f1f1;
+  --destaque: #2505b6;
   --destaque-inverso: #a73917;
   --fundo-card: #444444de;
 }
@@ -75,7 +77,9 @@ nav#menu a {
   font-weight: 600;
   padding: 8px 10px;
   border-radius: 5px;
+  text-shadow: 0.3px 0.3px 2px black;
   transition: background-color 0.4s, color 0.4s;
+  
 }
 
 main {
@@ -98,7 +102,7 @@ main a {
 }
 
 main h1 {
-  color: var(--destaque);
+  color: var(--texto-link);
   font-size: 2em;
   font-weight: bold;
   line-height: 40px;
@@ -163,13 +167,13 @@ section#artigos .notas {
 }
 
 #artigos .nota h2 {
-  color: var(--destaque);
+  color: var(--texto-link);
   padding: 3px;
   line-height: 25px;
 }
 
 #artigos .artigo h2 {
-  color: var(--destaque);
+  color: var(--texto-link);
   padding: 3px;
   line-height: 25px;
 }
@@ -280,15 +284,21 @@ aside#autor img {
 
 footer {
   background-color: var(--destaque);
+  text-shadow: 0.3px 0.3px 2px black;
   color: var(--texto-inverso);
+  font-size: 0.9em;
   align-items: center;
-  padding: 15px;
+  align-content: center;
+  text-align: center;
+  padding: 12px;
 }
 
 footer a {
   color: var(--texto-inverso);
+  text-shadow: 0.3px 0.3px 2px black;
   text-decoration: none;
   font-weight: bold;
+  padding: 0 3px;
 
 }
 
